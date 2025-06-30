@@ -132,10 +132,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Graphene-Django settings
 GRAPHENE = {
-    # This assumes your schema.py file is at the root of your Django project
-    # (i.e., alx-backend-graphql_crm/schema.py, alongside manage.py)
-    # The project name is 'alx_backend_graphql_crm', so the module path would be
-    # 'alx_backend_graphql_crm.schema' if schema.py is inside the inner project dir.
-    # If schema.py is at the root directory (where manage.py is), it's just 'schema.schema'.
-    "SCHEMA": "schema.schema" # Points to `alx-backend-graphql_crm/schema.py`
+    "SCHEMA": "alx_backend_graphql_crm.schema.schema"
 }
